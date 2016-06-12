@@ -1,0 +1,25 @@
+// Heading Styles
+
+.site-header {
+    background: #333;
+    color: #fff;
+
+    .container {
+        @include outer-container;
+    }
+    .header-columns {
+        @include span-columns(12);
+    }
+
+    h1 {
+        font-size: 72px;
+        line-height: 80px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0;
+    }
+}
