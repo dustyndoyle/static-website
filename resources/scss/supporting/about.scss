@@ -1,0 +1,16 @@
+// About Section styles
+
+.about-me {
+
+    .about-headshot {
+        @include span-columns(2 of 12);
+
+        img {
+            margin: 6px 0 0;
+        }
+    }
+
+    .about-content {
+        @include span-columns(10 of 12);
+    }
+}
