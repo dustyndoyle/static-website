@@ -1,0 +1,14 @@
+// Skills Section styles
+
+.skill-container {
+    @include span-columns(3 of 12);
+    text-align: center;
+
+    &:nth-child(4n) {
+        @include omega();
+    }
+
+    &:nth-child(-n+4) {
+        margin-bottom: 20px;
+    }
+}
