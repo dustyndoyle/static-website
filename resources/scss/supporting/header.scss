@@ -3,7 +3,16 @@
 .site-header {
     background: #252839;
     color: #b5b5b7;
-    padding: 80px 0 50px;
+    padding: 20px 0 50px;
+    
+    .header-name-container {
+        float: left;
+        margin: 60px 0 0;
+    }
+    
+    .header-social {
+        float: right;
+    }
 
     h1 {
         color: #b5b5b7;
