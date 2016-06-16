@@ -3,30 +3,57 @@
 .site-header {
     background: #252839;
     color: #b5b5b7;
-    padding: 20px 0 50px;
+    padding: 20px 20px 30px;
+
+    @media (min-width: 768px) {
+        padding: 20px 20px 50px;
+    }
     
     .header-name-container {
-        float: left;
-        margin: 60px 0 0;
+        float: none;
+        margin: 0;
+
+        @media (min-width: 768px) {
+            float: left;
+            margin: 60px 0 0;
+        }
     }
     
     .header-social {
-        float: right;
+        float: none;
+        text-align: center;
+        margin-top: 40px;
+
+        @media (min-width: 768px) {
+            float: right;
+            text-align: left;
+            margin-top: 0;
+        }
     }
 
     h1 {
         color: #b5b5b7;
-        font-size: 72px;
-        line-height: 80px;
+        font-size: 40px;
+        line-height: 46px;
         margin: 0 0 10px;
         padding: 0;
+
+        @media (min-width: 768px) {
+            font-size: 72px;
+            line-height: 80px;
+        }
     }
 
     h3 {
         color: #b5b5b7;
-        font-size: 30px;
-        line-height: 34px;
+        font-size: 24px;
+        line-height: 28px;
         margin: 0 0 0 6px;
         padding: 0;
+
+        @media (min-width: 768px) {
+            font-size: 30px;
+            line-height: 34px;
+        }
     }
 }
